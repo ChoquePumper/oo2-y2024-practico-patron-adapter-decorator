@@ -4,6 +4,7 @@ import oo2.practico5.ejercicio3.modelo.Report;
 import oo2.practico5.ejercicio3.modelo.VerificarArchivoExistente;
 
 import java.io.File;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 
 public class Main {
@@ -12,7 +13,7 @@ public class Main {
 	}
 
 	private static String armarReporte() {
-		return "Ejecutando main: \n"
+		return "Ejecutando main " + LocalDateTime.now() + ": \n"
 				+ String.join("\n", Arrays.stream(Thread.currentThread().getStackTrace()).map(StackTraceElement::toString).toList());
 	}
 }
