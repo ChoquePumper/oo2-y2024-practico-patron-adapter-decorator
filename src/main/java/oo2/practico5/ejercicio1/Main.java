@@ -4,7 +4,7 @@ import oo2.practico5.ejercicio1.modelo.Motor;
 import oo2.practico5.ejercicio1.modelo.motores.AdaptadorElectrico;
 import oo2.practico5.ejercicio1.modelo.motores.Comun;
 import oo2.practico5.ejercicio1.modelo.motores.Economico;
-import oo2.practico5.ejercicio1.modelo.motores.Electrico;
+import oo2.practico5.ejercicio1.modelo.electrico.Electrico;
 
 public class Main {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package oo2.practico5.ejercicio1.modelo.motores;
+package oo2.practico5.ejercicio1.modelo.electrico;
 
 public class Electrico {
 	public Electrico() {

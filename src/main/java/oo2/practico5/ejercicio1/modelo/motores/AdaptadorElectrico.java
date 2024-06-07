@@ -1,6 +1,7 @@
 package oo2.practico5.ejercicio1.modelo.motores;
 
 import oo2.practico5.ejercicio1.modelo.Motor;
+import oo2.practico5.ejercicio1.modelo.electrico.Electrico;
 
 public class AdaptadorElectrico implements Motor {
 
