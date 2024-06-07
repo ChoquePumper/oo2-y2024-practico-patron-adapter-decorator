@@ -4,7 +4,6 @@ import oo2.practico5.ejercicio3.modelo.Report;
 import oo2.practico5.ejercicio3.modelo.VerificarArchivoExistente;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 
 public class Main {
